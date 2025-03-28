@@ -1,0 +1,14 @@
+/* Приховуємо скролбар для Webkit (Chrome, Safari, новіші версії Edge) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Приховуємо скролбар для Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+/* Приховуємо скролбар для IE та Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+} 
